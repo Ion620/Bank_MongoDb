@@ -1,0 +1,16 @@
+<h1>Add a Deposit</h1>
+<form>
+	<div class="form-group">
+		<label>Min contribution</label>
+		<input class="form-control" ng-model="deposit.min_contribution"></input>
+	</div>
+	<div class="form-group">
+		<label>Percent years</label>
+		<input class="form-control" ng-model="deposit.percent_years"></input>
+	</div>
+	<div class="form-group">
+		<label>Termin month</label>
+		<input class="form-control" ng-model="deposit.term_month"></input>
+	</div>
+	<input type="button" class="btn btn-primary" value="Save" ng-click="save()"></input>
+</form>
